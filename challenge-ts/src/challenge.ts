@@ -1,6 +1,6 @@
 export function challenge() {
 interface User {
-    name?: string;
+    name: string;
     age?: number;
     birthday?: string;
   }

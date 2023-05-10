@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 
 import { setupCounter } from './counter.ts'
 import { challenge } from "./challenge.ts"
+import { hello } from "./hello.ts"
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -25,3 +26,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 challenge()
+hello()
