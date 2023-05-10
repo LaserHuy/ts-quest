@@ -6,6 +6,7 @@ import { setupCounter } from './counter.ts'
 import { challenge } from "./challenge.ts"
 import { hello } from "./hello.ts"
 import { personAi } from "./person.ts"
+import { bankCustomer } from "./bank.ts"
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -29,3 +30,4 @@ setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 challenge()
 hello()
 personAi()
+bankCustomer()
